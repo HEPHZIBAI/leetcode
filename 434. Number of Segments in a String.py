@@ -23,7 +23,6 @@ s consists of lowercase and uppercase English letters, digits, or one of the fol
 The only space character in s is ' '.
 '''
 
-
 class Solution:
     def countSegments(self, s: str) -> int:
         h=s.split()
